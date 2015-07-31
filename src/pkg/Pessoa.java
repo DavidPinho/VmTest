@@ -4,6 +4,7 @@ public class Pessoa {
 	
 	private String nome;
 	private int idade;
+	
 	public String getNome() {
 		return nome;
 	}
@@ -17,6 +18,19 @@ public class Pessoa {
 		this.idade = idade;
 	}
 	
+	public void testPessoa(){
+		
+		idade=10;
+		nome="j";
+		
+		for(int i =0;i<5;i++){
+			if((i<2 || i>4) && idade<90)
+				System.out.println("good");			
+		}
+		
+		nome = nome+"h";
+	}
 	
 
+	
 }
