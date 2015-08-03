@@ -20,6 +20,7 @@ public class Pessoa {
 	
 	public void testPessoa(){
 		
+		setIdade(1);
 		Animal vaca = new Animal();
 		vaca.setRaca("oi");
 		
