@@ -4,6 +4,7 @@ public class Pessoa {
 	
 	private String nome;
 	private int idade;
+	public int peso;
 	
 	public String getNome() {
 		return nome;
@@ -20,8 +21,12 @@ public class Pessoa {
 	
 	public void testPessoa(){
 		
+		
 		setIdade(1);
+		Pessoa p= new Pessoa();
+		p.peso=3;
 		Animal vaca = new Animal();
+		vaca.idade=6;
 		vaca.setRaca("oi");
 		
 		idade=10;
