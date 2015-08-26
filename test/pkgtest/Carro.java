@@ -18,4 +18,9 @@ public class Carro {
 		return p.getNome();
 	}
 	
+	public String tes2(Pessoa p){
+		return p.getNome().toString();
+	}
+	
+	
 }
