@@ -10,6 +10,7 @@ public class Animal {
 	}
 
 	public void setRaca(String raca) {
+		System.out.println("Bla");
 		this.raca = raca;
 	}
 	
