@@ -19,6 +19,19 @@ public class Pessoa {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
+
+public void dMeth(){
+  for (int i=0; i<10; i++) {
+	if (i==1)
+	  System.out.println(i);
+
+	if (i==2) {
+	  System.out.println(i);
+	} else {
+	  System.out.println("10");
+	}
+  }
+}
 	
 	public void testPessoa(){
 		
